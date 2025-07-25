@@ -18,7 +18,7 @@ Beyond reporting, the site connects users with essential emergency contacts, inc
 > ### `OCR API`  <a href="http://www.w3.org/2000/svg" target="blank" rel="noreferrer"><img src="https://github.com/user-attachments/assets/702ca689-e74e-4458-b428-e8f2cace9f81" width="150" height="50" alt="cloud-logo"></a>
 
 
-## ER DIAGRAM
+## DATABASE MANAGEMENT SYSTEM
 <table border="5 px" radius="2 px">
   <th> <a><img width="1620" height="680" alt="ER-Diagram _CRIME-CITY" src="https://github.com/user-attachments/assets/685dc093-80b0-4581-9e48-1af26422d71d" />
 </a>
