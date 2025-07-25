@@ -19,7 +19,11 @@ Beyond reporting, the site connects users with essential emergency contacts, inc
 
 
 ## ER DIAGRAM
-<img width="1620" height="680" alt="ER-Diagram _CRIME-CITY" src="https://github.com/user-attachments/assets/685dc093-80b0-4581-9e48-1af26422d71d" />
+<table border="5 px" radius="2 px">
+  <th> <a><img width="1620" height="680" alt="ER-Diagram _CRIME-CITY" src="https://github.com/user-attachments/assets/685dc093-80b0-4581-9e48-1af26422d71d" />
+</a>
+  </th>
+</table>
 </br></br>
 
 > [!CAUTION]
