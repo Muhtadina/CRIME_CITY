@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-image: url(img/bg-city.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    height: 100vh;
+}
+
+.left-panel{
+    align-items: center;
+    max-width: 55%;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.left-panel h1{
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-family: "Rubik Distressed", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-family: "Rubik Distressed", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+}
+
+.left-panel p{
+    text-align: left;
+    color: aliceblue;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+p{
+    color: #fff3f3;
+    font-family: "Antic", system-ui;
+    font-size: 15px;
+    
+    padding-bottom: 12px;
+}
+
+.right-panel{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    
+    flex-direction: column;
+    text-align: left;
+    max-width: 45%;
+    height: 100%;
+    background: rgba(194, 20, 20, 0.735);
+    margin-bottom: 0;
+}
+
+.right-panel h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: antiquewhite;
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.btn-signup{
+    text-decoration: none;
+    font-family: "Changa", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 118px;
+    padding-right: 118px;
+    display: inline-block;
+    text-align: center;
+    background: #4e1313;
+    color: antiquewhite;
+    border: 2px solid white;
+}
+
+.btn-signup:hover{
+    background: #fff3f3;
+    color: red;
+    transition: 0.5s;
+    border: 2px solid red;
+}
+
+.btn-login{
+    text-decoration: none;
+    font-family: "Changa", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 139px;
+    padding-right: 139px;
+    display: inline-block;
+    text-align: center;
+    background: #4e1313;
+    color: antiquewhite;
+    border: 2px solid white;
+}
+
+.btn-login:hover{
+    background: #fff3f3;
+    color: red;
+    transition: 0.5s;
+    border: 2px solid red;
+}
+
+.btn-prime{
+    text-decoration: none;
+    font-family: "Changa", sans-serif;
+    font-weight: 450;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.btn-prime:hover{
+    text-decoration: underline;
+    transition: 0.5ms;
+}
+
+.btn-back{
+    text-decoration: none;
+    font-family: "Changa", sans-serif;
+    font-weight: 450;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.btn-back:hover{
+    text-decoration: underline;
+    transition: 0.5ms;
+}
+
+button{
+    background: none;
+    border: none;
+    color: none; /* or any specific color */
+    font: inherit;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: underline; /* optional for visibility */
+}
+
+.middlebox {
+    /*max-width: 70%;
+    max-height: 60%;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    flex: 1;
+
+    padding-top: 30px;
+    padding-bottom: 40px;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* centers all child elements horizontally */
+    justify-content: center; /* centers content vertically */
+    text-align: center;
+
+    width: 60%;
+    padding: 20px;
+    margin: auto; /* center the box itself horizontally on page */
+
+    background: rgba(194, 20, 20, 0.735);
+    border-radius: 10px;
+}
+
+.middlebox h2{
+    color: antiquewhite;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+
+.fillup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.register_form{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*justify-content: space-between;*/
+}
+
+.form_input{
+    width: 100%;
+    height: 2.5em;
+    background-color: antiquewhite;
+    border: 2px solid red;
+    border-radius: 0.5em;
+    outline: none;
+    font-family: "Antic", sans-serif;
+    color: #4e1313;
+    font-size: 16px;
+
+    max-width: 562px;
+    padding: 0 15px;
+}
+
+.form_input::placeholder:hover {
+    color: transparent; /* hide default placeholder */
+}
+
+.register_form .form_input{
+    margin-bottom: 10px;
+}
+
+.form_inputII{
+    width: calc(100% / 2 - 20px);
+    height: 2.5em;
+    background-color: antiquewhite;
+    border: 2px solid red;
+    border-radius: 0.5em;
+    outline: none;
+    font-family: "Antic", sans-serif;
+    color: #4e1313;
+    font-size: 16px;
+
+    max-width: 280px;
+    padding: 0 15px;
+
+    margin-bottom: 10px;
+}
+
+.form_inputII::placeholder:hover {
+    color: transparent; /* hide default placeholder */
+}
+
+.form_input:focus{
+    border-color: #4e1313;
+    background-color: aliceblue;
+}
+
+.form_inputII:focus{
+    border-color: #4e1313;
+    background-color: aliceblue;
+}
+
+/*label{
+    position: absolute;
+    top: 0.75em;
+    left: 1em;
+    background: rgba(255, 243, 243, 0.9);
+    color: #4e1313;
+    padding: 0 0.25em;
+    font-size: 1em;
+    font-family: "Antic", sans-serif;
+    transition: 0.3s ease;
+    pointer-events: none;
+}
+
+.form_input:focus ~ label,
+.form_input:not(:placeholder-shown) ~ label {
+    top: -0.6em;
+    left: 0.8em;
+    font-size: 0.75em;
+    background: rgba(255, 243, 243, 1);
+}
+
+input[type="text"]:focus ~ label,
+.form_input:not(:placeholder-show)
+.form_input:not(:focus) ~ label{
+    top: -0.5em;
+    font-size: 0.75em;
+    padding: 0 0.125em;
+}*/
+
+span{
+    margin-bottom: 2px;
+    color: #fff3f3;
+    font-family: "Antic", system-ui;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+input[type="checkbox"]{
+    accent-color: skyblue; 
+    cursor: pointer;
+}
+
+.term_condition{
+    text-decoration: none;
+    color: skyblue;
+}
+
+.term_condition:hover{
+    text-decoration: underline;
+    color: rgb(0, 183, 255);
+}
+
